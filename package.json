@@ -1,0 +1,24 @@
+{
+  "name": "tcg-everyone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "hbs": "^4.0.4",
+    "jquery": "^3.4.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
